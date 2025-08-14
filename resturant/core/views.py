@@ -203,3 +203,6 @@ def change_password(request):
             user=form.save()
             return redirect('log_in')
     return render(request, 'accounts/password_change.html', {'form': form})
+
+    # # reset password
+    print('this is githud for testing data')
